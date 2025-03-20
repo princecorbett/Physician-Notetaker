@@ -4,7 +4,12 @@ Code Link: https://colab.research.google.com/github/princecorbett/Physician-Note
 
 ## Overview 
 
-This project extracts medical information from patient transcripts using NLP techniques. It identifies symptoms, diagnoses, treatments and generates structured SOAP notes. The pipeline utilizes spaCy for entity recognition and Hugging Face transformers for sentiment analysis, intent detection, and summarization.
+This project extracts medical information from patient transcripts using NLP techniques. It identifies symptoms, diagnoses, and treatments and generates structured SOAP notes. The pipeline utilizes spaCy for entity recognition and Hugging Face transformers for sentiment analysis, intent detection, and summarization.
+
+### Sample output screenshot
+
+![Pipeline Overview](Output.png)
+
 
 ##  Setup Instructions 
 
