@@ -40,3 +40,7 @@ This will process the sample transcript and output a structured summary in JSON 
 Modify transcript in medical_nlp_pipeline.py to analyze different medical dialogues.
 
 Update models or entity rules for improved accuracy.
+
+## Methodologies Used
+
+This project employs both rule-based and deep learning methodologies. Named Entity Recognition (NER) is implemented using spaCy, trained on medical datasets to extract symptoms, treatments, and diagnoses. Transformers such as BERT or BioBERT are utilized for sentiment analysis and intent detection, ensuring accurate classification of patient concerns. The summarization task is handled using transformer-based models like BART, optimized for medical conversations. The SOAP note generation follows structured parsing techniques combined with contextual embeddings for accurate classification of transcript sections.
